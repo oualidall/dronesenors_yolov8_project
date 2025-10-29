@@ -1,16 +1,15 @@
 # 🛰️ DroneSensors YOLOv8 Project
-
+**Auteur :** Oualid Allouch  
+**Entreprise :** VTEC Lasers & Sensors Ltd. (Eindhoven, NL)  
+**Rôle :** AI & Computer Vision Intern — Juin–Août 2025  
 
 <p align="center">
   <img src="docs/pipeline_overview.png" alt="YOLOv8 Drone Pipeline" width="700"/>
 </p>
 
 
-**Auteur :** Oualid Allouch  
-**Entreprise :** VTEC Lasers & Sensors Ltd. (Eindhoven, NL)  
-**Rôle :** AI & Computer Vision Intern — Juin–Août 2025  
 
----
+
 
 ## 🎯 Objectif
 
