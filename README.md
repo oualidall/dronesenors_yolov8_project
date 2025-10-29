@@ -1,4 +1,9 @@
 # 🛰️ DroneSensors YOLOv8 Project
+
+<p align="center">
+  <img src="docs/pipeline_overview.png" alt="YOLOv8 Drone Pipeline" width="700"/>
+</p>
+
 <p align="center">
   <img src="docs/pipeline_overview.png" alt="YOLOv8 Drone Pipeline" width="700"/>
 </p>
