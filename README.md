@@ -53,3 +53,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 
+---
+
+## 🔗 Contact
+
+👨‍💻 **Oualid Allouch**  
+AI & Computer Vision Engineer  
+📍 Télécom Physique Strasbourg | VTEC Lasers & Sensors  
+📫 mailto : oualid.allouch@etu.unistra.fr 
+🌐 [LinkedIn](https://www.linkedin.com/in/oualid-allouch-608b3738a/) 
+
+
