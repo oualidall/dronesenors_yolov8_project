@@ -2,5 +2,5 @@ ultralytics>=8.3.0
 torch
 opencv-python
 numpy
-matplotlib
 tqdm
+matplotlib
