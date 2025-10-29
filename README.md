@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.12.0-green)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 # 🛰️ DroneSensors YOLOv8 Project
 **Auteur :** Oualid Allouch  
 **Entreprise :** VTEC Lasers & Sensors Ltd. (Eindhoven, NL)  
