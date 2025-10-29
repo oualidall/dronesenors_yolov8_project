@@ -9,20 +9,30 @@ __pycache__/
 .ipynb_checkpoints/
 *.ipynb_save
 
-# Data / Models / Results (gros/fugitifs)
-data/
-annotations/
-models/
-results/
-runs/
-weights/
+# Données lourdes ignorées par défaut (mais on garde .gitkeep et exemples)
+data/**
+!data/.gitkeep
+!data/samples/**
+
+annotations/**
+!annotations/.gitkeep
+!annotations/examples/**
+
+models/**
+!models/.gitkeep
+!models/README.md
+
+results/**
+!results/.gitkeep
+
+runs/**
 *.pt
 *.onnx
 *.engine
 *.mp4
 *.avi
 
-# OS/IDE
+# OS / IDE
 .DS_Store
 .vscode/
 .idea/
