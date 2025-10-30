@@ -63,6 +63,7 @@ drone_yolov8_project/
 
 
 📄 Exemple d’annotation JSON
+```json
 {
   "image_filename": "video2.mp4_frame0156.jpg",
   "image_dimensions": { "width": 848, "height": 480 },
@@ -89,34 +90,23 @@ drone_yolov8_project/
     }
   ]
 }
+```
 📁 Voir le fichier complet video2.mp4_frame0156.json
 
-⚙️ Installation rapide
+---
+
+## ⚙️ Installation rapide
+
+🧩 Installation de l’environnement et des dépendances :
+
+```bash
+# 1️⃣ Créer et activer l'environnement virtuel
 python -m venv .venv
 source .venv/bin/activate
+
+# 2️⃣ Installer les dépendances requises
 pip install -r requirements.txt
-
-🔁 Reproduire les résultats
-1️⃣ Ajouter une vidéo drone
-
-Dépose un fichier .mp4 dans :
-data/videos/
-
-2️⃣ Extraire les frames
-python scripts/extract_frames.py data/videos data/frames_dataset 10
-
-3️⃣ Annoter automatiquement avec YOLOv8
-python scripts/annotate_batch.py data/frames_dataset annotations
-
-4️⃣ Visualiser une annotation à partir d’un JSON
-python scripts/visualize_json.py \
-  docs/original_frame.jpg \
-  docs/video2.mp4_frame0156.json \
-  docs/example_annotation.jpg
-
-Les fichiers JSON sont générés dans annotations/ et contiennent :
-x, y, w, h, class, conf pour chaque objet détecté.
-
+```
 
 🧰 Technologies utilisées
 
