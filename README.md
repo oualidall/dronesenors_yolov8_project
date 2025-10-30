@@ -45,6 +45,7 @@ drone_yolov8_project/
 ├── requirements.txt
 └── README.md
 
+
 ## ⚙️ Installation rapide
 
 ```bash
