@@ -54,15 +54,30 @@ pip install -r requirements.txt
 
 ---
 
+---
+
 ## 🎯 Exemple d’annotation YOLOv8
 
-| Image originale | Image annotée |
-|:----------------:|:--------------:|
-| ![Original](docs/original_frame.jpg) | ![Annotée](docs/example_annotation.jpg) |
+<div align="center" style="background-color:#1e1e1e; padding:15px; border-radius:12px; border:1px solid #333;">
+
+<table>
+  <tr>
+    <td align="center" style="padding:10px;">
+      <strong>Image originale</strong><br>
+      <img src="docs/original_frame.jpg" alt="Frame originale" width="420" style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);" />
+    </td>
+    <td align="center" style="padding:10px;">
+      <strong>Image annotée</strong><br>
+      <img src="docs/example_annotation.jpg" alt="Frame annotée" width="420" style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <em>Comparaison avant/après : détection automatique d’objets sur la frame <code>video2.mp4_frame0156.jpg</code>.</em>
+  <em>Comparaison avant / après : détection automatique d’objets sur la frame <code>video2.mp4_frame0156.jpg</code>.</em>
 </p>
+
+</div>
 
 ---
 
