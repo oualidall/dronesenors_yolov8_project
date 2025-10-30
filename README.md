@@ -107,6 +107,38 @@ source .venv/bin/activate
 # 2️⃣ Installer les dépendances requises
 pip install -r requirements.txt
 ```
+##🔁 Reproduire les résultats
+1️⃣ Ajouter une vidéo drone
+
+Dépose un fichier .mp4 dans le dossier suivant :
+```bash
+data/videos/
+
+```
+2️⃣ Extraire les frames à partir de la vidéo
+```bash
+python scripts/extract_frames.py data/videos data/frames_dataset 10
+
+```
+➡️ Cela extrait une image toutes les 10 frames (modifiable selon besoin).
+
+3️⃣ Annoter automatiquement les frames avec YOLOv8
+```bash
+python scripts/annotate_batch.py data/frames_dataset annotations
+
+```
+🧠 Les résultats d’annotation sont enregistrés sous forme de fichiers JSON dans annotations/.
+
+4️⃣ Visualiser une annotation à partir d’un fichier JSON
+```bash
+python scripts/visualize_json.py \
+  docs/original_frame.jpg \
+  docs/video2.mp4_frame0156.json \
+  docs/example_annotation.jpg
+
+```
+📸 Cette commande charge l’image originale, applique les annotations JSON,
+et sauvegarde le rendu dans docs/example_annotation.jpg.
 
 ## 🧰 Technologies utilisées
 
