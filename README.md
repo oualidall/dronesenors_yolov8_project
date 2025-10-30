@@ -108,7 +108,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-🧰 Technologies utilisées
+## 🧰 Technologies utilisées
 
 🐍 Python 3.12
 
@@ -122,7 +122,7 @@ pip install -r requirements.txt
 
 🧩 Linux, Git, Bash
 
-🔗 Contact
+## 🔗 Contact
 
 👨‍💻 Oualid Allouch
 AI & Computer Vision Engineer
