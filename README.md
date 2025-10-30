@@ -127,7 +127,9 @@ pip install -r requirements.txt
 👨‍💻 Oualid Allouch
 AI & Computer Vision Engineer
 📍 Télécom Physique Strasbourg | VTEC Lasers & Sensors (Eindhoven, NL)
+
 📫 Email : oualid.allouch@etu.unistra.fr
+
 🌐 LinkedIn:(https://www.linkedin.com/in/oualid-allouch-608b3738a/)
 
 
