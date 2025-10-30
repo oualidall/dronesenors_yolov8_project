@@ -52,66 +52,6 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
----
-
----
-
-## 🎯 Exemple d’annotation YOLOv8
-
-<div align="center" style="background-color:#1e1e1e; padding:15px; border-radius:12px; border:1px solid #333;">
-
-<table>
-  <tr>
-    <td align="center" style="padding:10px;">
-      <strong>Image originale</strong><br>
-      <img src="docs/original_frame.jpg" alt="Frame originale" width="420" style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);" />
-    </td>
-    <td align="center" style="padding:10px;">
-      <strong>Image annotée</strong><br>
-      <img src="docs/example_annotation.jpg" alt="Frame annotée" width="420" style="border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.5);" />
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <em>Comparaison avant / après : détection automatique d’objets sur la frame <code>video2.mp4_frame0156.jpg</code>.</em>
-</p>
-
-</div>
-
----
-
-## 📄 Exemple d’annotation JSON
-
-```json
-{
-  "image_filename": "video2.mp4_frame0156.jpg",
-  "image_dimensions": { "width": 848, "height": 480 },
-  "objects": [
-    {
-      "contour": { "x": 692.77, "y": 300.01, "w": 53.49, "h": 32.49 },
-      "obj_name": "car",
-      "name_accuracy": 0.7056
-    },
-    {
-      "contour": { "x": 559.83, "y": 281.91, "w": 40.72, "h": 19.37 },
-      "obj_name": "car",
-      "name_accuracy": 0.6810
-    },
-    {
-      "contour": { "x": 718.60, "y": 275.97, "w": 28.55, "h": 14.71 },
-      "obj_name": "car",
-      "name_accuracy": 0.4981
-    },
-    {
-      "contour": { "x": 381.34, "y": 277.32, "w": 9.75, "h": 21.29 },
-      "obj_name": "person",
-      "name_accuracy": 0.3576
-    }
-  ]
-}
-
-
 
 
 ## 🔗 Contact
