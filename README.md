@@ -107,7 +107,7 @@ source .venv/bin/activate
 # 2️⃣ Installer les dépendances requises
 pip install -r requirements.txt
 ```
-##🔁 Reproduire les résultats
+## 🔁 Reproduire les résultats
 
 1️⃣ Ajouter une vidéo drone
 
